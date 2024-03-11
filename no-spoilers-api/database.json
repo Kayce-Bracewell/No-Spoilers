@@ -1,0 +1,93 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "genreId": "Fiction",
+      "date": "1925-04-10",
+      "bookImg": "https://example.com/images/great_gatsby.jpg",
+      "authorName": "F. Scott Fitzgerald"
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "genreId": "Classic",
+      "date": "1960-07-11",
+      "bookImg": "https://example.com/images/to_kill_a_mockingbird.jpg",
+      "authorName": "Harper Lee"
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "genreId": "Dystopian",
+      "date": "1949-06-08",
+      "bookImg": "https://example.com/images/1984.jpg",
+      "authorName": "George Orwell"
+    },
+    {
+      "id": 4,
+      "title": "The Hobbit",
+      "genreId": "Fantasy",
+      "date": "1937-09-21",
+      "bookImg": "https://example.com/images/the_hobbit.jpg",
+      "authorName": "J.R.R. Tolkien"
+    },
+    {
+      "id": 5,
+      "title": "Pride and Prejudice",
+      "genreId": "Classic",
+      "date": "1813-01-28",
+      "bookImg": "https://example.com/images/pride_and_prejudice.jpg",
+      "authorName": "Jane Austen"
+    },
+    {
+      "id": 6,
+      "title": "The Catcher in the Rye",
+      "genreId": "Fiction",
+      "date": "1951-07-16",
+      "bookImg": "https://example.com/images/the_catcher_in_the_rye.jpg",
+      "authorName": "J.D. Salinger"
+    },
+    {
+      "id": 7,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "genreId": "Fantasy",
+      "date": "1997-06-26",
+      "bookImg": "https://example.com/images/harry_potter.jpg",
+      "authorName": "J.K. Rowling"
+    },
+    {
+      "id": 8,
+      "title": "The Lord of the Rings",
+      "genreId": "Fantasy",
+      "date": "1954-07-29",
+      "bookImg": "https://example.com/images/lotr.jpg",
+      "authorName": "J.R.R. Tolkien"
+    },
+    {
+      "id": 9,
+      "title": "The Shining",
+      "genreId": "Horror",
+      "date": "1977-01-28",
+      "bookImg": "https://example.com/images/the_shining.jpg",
+      "authorName": "Stephen King"
+    },
+    {
+      "id": 10,
+      "title": "The Hunger Games",
+      "genreId": "Dystopian",
+      "date": "2008-09-14",
+      "bookImg": "https://example.com/images/hunger_games.jpg",
+      "authorName": "Suzanne Collins"
+    }
+  ],
+  "posts": [
+    {
+      "title": "This is the first post",
+      "body": "Gee, I hope this works..",
+      "likes": 0,
+      "bookId": 1,
+      "id": 1
+    }
+  ]
+}

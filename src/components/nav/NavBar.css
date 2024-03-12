@@ -1,3 +1,22 @@
 .navbar {
-    
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #86626E;
+    margin: 0;
+    width: 100%;
+    padding: 0.5rem;
+    border-bottom: 2px solid black;
+}
+
+.navbar-item {
+    flex-basis: 20%;
+    list-style-type: none;
+    text-align: center;
+    color: var(--offWhite);
+    text-decoration: underline;
+}
+
+.navbar-link {
+    color: black;
+    text-decoration: none;
 }

@@ -1,6 +1,6 @@
 
 
-export const CreatePost = async (postTitle, postBody, BookId) => {
+export const CreatePost = async (postTitle, postBody, BookId, userId) => {
     const postOptions = {
         method: "POST",
         headers: {
@@ -10,7 +10,8 @@ export const CreatePost = async (postTitle, postBody, BookId) => {
             title: postTitle,
             body: postBody,
             likes: 0,
-            bookId: parseInt(BookId)
+            bookId: parseInt(BookId),
+            userId: userId
         })
     }
 

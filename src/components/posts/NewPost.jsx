@@ -1,12 +1,16 @@
 import { useEffect, useState } from "react"
 import { GetBooks } from "../services/BookService"
 import { CreatePost } from "../services/CreatePost"
+import "./NewPost.css"
+import { useNavigate } from "react-router-dom"
 
-export const NewPost = () => {
+export const NewPost = ({ currentUser }) => {
     const [books, setBooks] = useState([])
     const [postTitle, setPostTitle] = useState("")
     const [postBody, setPostBody] = useState("")
     const [postBook, setPostBook] = useState("")
+
+    const Navigate = useNavigate()
 
     useEffect(() => {
         GetBooks().then((bookArray) => {
@@ -15,9 +19,9 @@ export const NewPost = () => {
     }, [])
 
     return (
-        <form>
+        <form className="post-form">
             <fieldset>
-                <legend>New Post:</legend>
+                <legend>New Post</legend>
                 <label>Enter Post Title:</label><br />
                 <input type="text" id="title" name="title" onChange={(event) => {
                     setPostTitle(event.target.value)
@@ -37,11 +41,12 @@ export const NewPost = () => {
                     })}
                 </select><br />
                 <label>Enter Post Body:</label><br />
-                <input type="text" id="body" name="body" onChange={(event) => {
+                <textarea type="text" id="body" name="body" onChange={(event) => {
                     setPostBody(event.target.value)
+                    Navigate("/")
                 }}/><br />
                 <button onClick={() => {
-                    CreatePost(postTitle, postBody, postBook)
+                    CreatePost(postTitle, postBody, postBook, currentUser.id)
                 }}type="button">Create Post</button>
             </fieldset>
         </form>

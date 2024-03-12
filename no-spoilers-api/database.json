@@ -3,23 +3,23 @@
     {
       "id": 1,
       "title": "The Great Gatsby",
-      "genreId": "Fiction",
+      "genre": "Fiction",
       "date": "1925-04-10",
-      "bookImg": "https://example.com/images/great_gatsby.jpg",
+      "bookImg": "https://www.hachettebookgroup.com/wp-content/uploads/2020/06/9780762498130-3.jpg?w=640",
       "authorName": "F. Scott Fitzgerald"
     },
     {
       "id": 2,
       "title": "To Kill a Mockingbird",
-      "genreId": "Classic",
+      "genre": "Classic",
       "date": "1960-07-11",
-      "bookImg": "https://example.com/images/to_kill_a_mockingbird.jpg",
+      "bookImg": "https://m.media-amazon.com/images/I/81aY1lxk+9L._AC_UF1000,1000_QL80_.jpg",
       "authorName": "Harper Lee"
     },
     {
       "id": 3,
       "title": "1984",
-      "genreId": "Dystopian",
+      "genre": "Dystopian",
       "date": "1949-06-08",
       "bookImg": "https://example.com/images/1984.jpg",
       "authorName": "George Orwell"
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "title": "The Hobbit",
-      "genreId": "Fantasy",
+      "genre": "Fantasy",
       "date": "1937-09-21",
       "bookImg": "https://example.com/images/the_hobbit.jpg",
       "authorName": "J.R.R. Tolkien"
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "title": "Pride and Prejudice",
-      "genreId": "Classic",
+      "genre": "Classic",
       "date": "1813-01-28",
       "bookImg": "https://example.com/images/pride_and_prejudice.jpg",
       "authorName": "Jane Austen"
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "title": "The Catcher in the Rye",
-      "genreId": "Fiction",
+      "genre": "Fiction",
       "date": "1951-07-16",
       "bookImg": "https://example.com/images/the_catcher_in_the_rye.jpg",
       "authorName": "J.D. Salinger"
@@ -51,7 +51,7 @@
     {
       "id": 7,
       "title": "Harry Potter and the Sorcerer's Stone",
-      "genreId": "Fantasy",
+      "genre": "Fantasy",
       "date": "1997-06-26",
       "bookImg": "https://example.com/images/harry_potter.jpg",
       "authorName": "J.K. Rowling"
@@ -59,15 +59,15 @@
     {
       "id": 8,
       "title": "The Lord of the Rings",
-      "genreId": "Fantasy",
+      "genre": "Fantasy",
       "date": "1954-07-29",
-      "bookImg": "https://example.com/images/lotr.jpg",
+      "bookImg": "https://s26162.pcdn.co/wp-content/uploads/2017/05/the-lord-of-the-rings-book-cover.jpg",
       "authorName": "J.R.R. Tolkien"
     },
     {
       "id": 9,
       "title": "The Shining",
-      "genreId": "Horror",
+      "genre": "Horror",
       "date": "1977-01-28",
       "bookImg": "https://example.com/images/the_shining.jpg",
       "authorName": "Stephen King"
@@ -75,9 +75,9 @@
     {
       "id": 10,
       "title": "The Hunger Games",
-      "genreId": "Dystopian",
+      "genre": "Dystopian",
       "date": "2008-09-14",
-      "bookImg": "https://example.com/images/hunger_games.jpg",
+      "bookImg": "https://m.media-amazon.com/images/I/71un2hI4mcL._AC_UF1000,1000_QL80_.jpg",
       "authorName": "Suzanne Collins"
     }
   ],
@@ -87,7 +87,40 @@
       "body": "Gee, I hope this works..",
       "likes": 0,
       "bookId": 1,
+      "userId": 1,
       "id": 1
+    },
+    {
+      "title": "This is the second post",
+      "body": "Second post for testing purposes",
+      "likes": 0,
+      "bookId": 2,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "title": "Exploring the Depths of Middle-earth: My Adventure with 'The Lord of the Rings'",
+      "body": "In a world where magic, friendship, and courage intertwine, J.R.R. Tolkien's masterpiece, \"The Lord of the Rings,\" takes readers on an unforgettable journey through the realms of Middle-earth. From the peaceful Shire to the fiery depths of Mount Doom, this epic saga captivates with its rich tapestry of characters and lore.  As I delved into the pages of this timeless classic, I found myself immersed in a world teeming with beauty and danger, where every turn of the page revealed new wonders and challenges. From the humble beginnings of Frodo Baggins' quest to destroy the One Ring to the epic battles that decide the fate of Middle-earth, Tolkien's masterful storytelling kept me spellbound until the very end.  But beyond its captivating plot and breathtaking landscapes, \"The Lord of the Rings\" resonates with timeless themes of friendship, sacrifice, and the triumph of good over evil. Through the trials and tribulations faced by Frodo, Sam, Aragorn, and the Fellowship, Tolkien reminds us of the power of hope and the importance of standing against darkness, no matter the odds.  In the end, \"The Lord of the Rings\" is more than just a story; it's a journey of the heart and soul, one that continues to inspire readers of all ages to embark on their own adventures and never lose sight of the light that shines in even the darkest of times.",
+      "likes": 0,
+      "bookId": 8,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "title": "Survival and Sacrifice: Reflecting on 'The Hunger Games'",
+      "body": "In a dystopian future where the odds are never in your favor, Suzanne Collins' \"The Hunger Games\" transports readers into a world where survival is not just a choice but a ruthless game of life and death. From the poverty-stricken District 12 to the opulent Capitol, this gripping tale follows the journey of Katniss Everdeen as she navigates the treacherous arena of the Hunger Games.  From the moment I picked up this book, I was captivated by its relentless pace and raw emotion. Collins paints a vivid picture of a society divided by class and hunger for power, where the spectacle of the Hunger Games serves as both entertainment and a chilling reminder of the Capitol's control over its citizens.  As Katniss fights for survival amidst the chaos of the Games, she becomes a symbol of hope and defiance, sparking a revolution that challenges the very foundation of the Capitol's tyranny. But beyond its thrilling action and suspenseful plot twists, \"The Hunger Games\" delves into themes of sacrifice, loyalty, and the resilience of the human spirit.  Through Katniss's journey, we are reminded of the power of individual agency in the face of oppression and the importance of standing up for what is right, even when the odds seem insurmountable. In a world where survival is a constant battle, \"The Hunger Games\" serves as a poignant reminder of the strength we possess when we dare to fight for a better tomorrow.",
+      "likes": 0,
+      "bookId": 10,
+      "userId": 1,
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Kayce Bracewell",
+      "email": "kayceb98@gmail.com",
+      "isAdmin": true
     }
   ]
 }

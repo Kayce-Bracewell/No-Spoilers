@@ -1,0 +1,19 @@
+.post-form {
+    background-color: #86626E;
+}
+
+#title {
+    width: 50%;
+}
+
+#body {
+    width: 98%;
+    height: 400px;
+}
+
+legend {
+    text-decoration: underline;
+    width: 98%;
+    padding-bottom: 5px;
+    text-align: center;
+}

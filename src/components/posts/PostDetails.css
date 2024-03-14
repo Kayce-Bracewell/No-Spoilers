@@ -1,0 +1,35 @@
+#post-details {
+    margin: 10px 0;
+    width: 80%;
+    padding: 5px;
+}
+
+#post-details:hover {
+    background-color: #86626E;
+}
+
+#del-btn {
+    background-color: rgb(148, 23, 23);
+
+}
+
+#edit-btn {
+    background-color: palegreen;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 20%;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}

@@ -29,7 +29,7 @@
       "title": "The Hobbit",
       "genre": "Fantasy",
       "date": "1937-09-21",
-      "bookImg": "https://example.com/images/the_hobbit.jpg",
+      "bookImg": "https://m.media-amazon.com/images/I/712cDO7d73L._AC_UF1000,1000_QL80_.jpg",
       "authorName": "J.R.R. Tolkien"
     },
     {
@@ -93,7 +93,7 @@
     {
       "title": "This is the second post",
       "body": "Second post for testing purposes",
-      "likes": 0,
+      "likes": 1,
       "bookId": 2,
       "userId": 1,
       "id": 2
@@ -101,7 +101,7 @@
     {
       "title": "Exploring the Depths of Middle-earth: My Adventure with 'The Lord of the Rings'",
       "body": "In a world where magic, friendship, and courage intertwine, J.R.R. Tolkien's masterpiece, \"The Lord of the Rings,\" takes readers on an unforgettable journey through the realms of Middle-earth. From the peaceful Shire to the fiery depths of Mount Doom, this epic saga captivates with its rich tapestry of characters and lore.  As I delved into the pages of this timeless classic, I found myself immersed in a world teeming with beauty and danger, where every turn of the page revealed new wonders and challenges. From the humble beginnings of Frodo Baggins' quest to destroy the One Ring to the epic battles that decide the fate of Middle-earth, Tolkien's masterful storytelling kept me spellbound until the very end.  But beyond its captivating plot and breathtaking landscapes, \"The Lord of the Rings\" resonates with timeless themes of friendship, sacrifice, and the triumph of good over evil. Through the trials and tribulations faced by Frodo, Sam, Aragorn, and the Fellowship, Tolkien reminds us of the power of hope and the importance of standing against darkness, no matter the odds.  In the end, \"The Lord of the Rings\" is more than just a story; it's a journey of the heart and soul, one that continues to inspire readers of all ages to embark on their own adventures and never lose sight of the light that shines in even the darkest of times.",
-      "likes": 0,
+      "likes": 1,
       "bookId": 8,
       "userId": 1,
       "id": 3
@@ -113,6 +113,14 @@
       "bookId": 10,
       "userId": 1,
       "id": 4
+    },
+    {
+      "title": "A Journey Through Middle-earth: My Reflections on \"The Hobbit\"",
+      "body": "Greetings, fellow adventurers! Today, I embark on a quest to share my personal reflections on J.R.R. Tolkien's timeless tale, \"The Hobbit.\" As I close the final pages of this enchanting book, I find myself transported to a world of magic, courage, and unexpected friendships.\n\n\"The Hobbit\" follows the journey of Bilbo Baggins, a hobbit who is thrust into a grand adventure beyond the comforts of his cozy home in the Shire. From the moment Gandalf the wizard and a band of dwarves arrive on his doorstep, Bilbo's life is forever changed.\n\nOne aspect of the book that captivated me from the start is Tolkien's unparalleled ability to weave a rich tapestry of mythology and folklore. As Bilbo traverses the misty mountains, encounters trolls and elves, and confronts the fearsome dragon Smaug, I found myself completely immersed in the vivid landscapes of Middle-earth.\n\nBut beyond its fantastical elements, \"The Hobbit\" is also a story about personal growth and resilience. Bilbo's journey from a timid hobbit to a brave adventurer is both inspiring and relatable. His encounters with danger and uncertainty force him to confront his own fears and discover strengths he never knew he possessed.\n\nYet amidst the epic battles and narrow escapes, it is the themes of friendship and loyalty that resonate most deeply with me. From the steadfast loyalty of Thorin Oakenshield to the unexpected bond between Bilbo and Gollum, \"The Hobbit\" reminds us that true heroism often lies in acts of compassion and selflessness.\n\nAs I reluctantly bid farewell to Bilbo and his companions, I am left with a sense of wonder and nostalgia. \"The Hobbit\" is more than just a book; it's a journey into the heart of imagination, where every page is a doorway to adventure and discovery.\n\nSo to all fellow travelers who have yet to embark on this literary quest, I urge you to set forth on your own adventure through Middle-earth. Whether you're a seasoned adventurer or a first-time traveler, \"The Hobbit\" promises to enchant and inspire, leaving an indelible mark on your heart.\n\nUntil next time, may your paths be ever filled with wonder and your adventures abound!\n\nSafe travels, my friends. ",
+      "likes": 0,
+      "bookId": 4,
+      "userId": 2,
+      "id": 5
     }
   ],
   "users": [
@@ -121,6 +129,12 @@
       "fullName": "Kayce Bracewell",
       "email": "kayceb98@gmail.com",
       "isAdmin": true
+    },
+    {
+      "email": "ahopkins@yahoo.com",
+      "fullName": "Anthony Hopkins",
+      "isAdmin": false,
+      "id": 2
     }
   ]
 }

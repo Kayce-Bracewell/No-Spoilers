@@ -3,6 +3,7 @@ import { Home } from "./Home"
 import { NewPost } from "../posts/NewPost"
 import { NavBar } from "../nav/NavBar"
 import { AllPostsDisplay } from "../posts/AllPostsDisplay"
+import { PostDetails } from "../posts/PostDetails"
 
 
 export const CustomerViews = ({ currentUser }) => {
@@ -17,6 +18,9 @@ export const CustomerViews = ({ currentUser }) => {
             }>
                 <Route index element={<><Home /><AllPostsDisplay /></>}/>
                 <Route path="newpost" element={<NewPost currentUser={currentUser}/>}/>
+                <Route path="post">
+                    <Route path=":postId" element={<PostDetails currentUser={currentUser}/>}/>
+                </Route>
             </Route>
         </Routes>
     )

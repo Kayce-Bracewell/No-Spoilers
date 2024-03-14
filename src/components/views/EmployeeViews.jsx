@@ -17,6 +17,9 @@ export const EmployeeViews = ({ currentUser }) => {
             }>
                 <Route index element={<><Home /><AllPostsDisplay /></>}/>
                 <Route path="newpost" element={<NewPost currentUser={currentUser}/>}/>
+                <Route path="post">
+                    <Route path=":postId" element={<PostDetails currentUser={currentUser}/>}/>
+                </Route> 
             </Route>
         </Routes>
     )

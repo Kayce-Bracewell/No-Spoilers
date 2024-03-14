@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react"
 import { GetBooks } from "../services/BookService"
-import { CreatePost } from "../services/CreatePost"
+import { CreatePost, EditPost } from "../services/CreatePost"
 import "./NewPost.css"
 import { useNavigate } from "react-router-dom"
 
-export const NewPost = ({ currentUser }) => {
+export const NewPost = ({ currentUser, post }) => {
     const [books, setBooks] = useState([])
     const [postTitle, setPostTitle] = useState("")
     const [postBody, setPostBody] = useState("")
@@ -18,16 +18,24 @@ export const NewPost = ({ currentUser }) => {
         })
     }, [])
 
+    useEffect(() => {
+        if (typeof post != "undefined") {
+            setPostTitle(post.title)
+            setPostBody(post.body)
+            setPostBook(JSON.stringify(post.bookId))
+        }
+    }, [])
+
     return (
         <form className="post-form">
             <fieldset>
                 <legend>New Post</legend>
                 <label>Enter Post Title:</label><br />
-                <input type="text" id="title" name="title" onChange={(event) => {
+                <input type="text" id="title" name="title" value={postTitle} onChange={(event) => {
                     setPostTitle(event.target.value)
                 }}/><br />
                 <label>Select Book:</label><br />
-                <select onChange={(e) => {
+                <select selected={post?.bookId} onChange={(e) => {
                     const index = e.target.selectedIndex;
                     const el = e.target.childNodes[index]
                     const option =  el.getAttribute('id');
@@ -41,13 +49,17 @@ export const NewPost = ({ currentUser }) => {
                     })}
                 </select><br />
                 <label>Enter Post Body:</label><br />
-                <textarea type="text" id="body" name="body" onChange={(event) => {
+                <textarea type="text" id="body" name="body" value={postBody} onChange={(event) => {
                     setPostBody(event.target.value)
-                    Navigate("/")
                 }}/><br />
-                <button onClick={() => {
+                {typeof post == "undefined" ? <button onClick={() => {
                     CreatePost(postTitle, postBody, postBook, currentUser.id)
-                }}type="button">Create Post</button>
+                    Navigate("/")
+                }}type="button">Create Post</button> : <button type="button" onClick={() => {
+                    EditPost(post, postTitle, postBody, postBook)
+                    Navigate(`/`)
+                }}>Save Edit</button>}
+                
             </fieldset>
         </form>
     )

@@ -10,6 +10,7 @@
 .form-login {
   width: 60%;
   margin: 2rem auto;
+  background-color: #86626E;
 }
 
 .form-login > h1 {
@@ -43,7 +44,7 @@ form {
   border: 1px solid var(--outline);
   border-radius: 10px;
   padding: 1rem 0rem 0rem 1rem;
-  box-shadow: 1px 2px 5px lightgray;
+  box-shadow: 1px 2px 5px rgb(56, 7, 7);
   background-color: var(--offWhite);
 }
 
@@ -76,4 +77,12 @@ fieldset {
   box-shadow: none;
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+#member-yet {
+  color: black;
+}
+
+#sign-in {
+  border: none;
 }

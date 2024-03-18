@@ -83,16 +83,16 @@
   ],
   "posts": [
     {
-      "title": "This is the first post",
-      "body": "Gee, I hope this works..",
+      "title": "Unveiling the Jazz Age Splendor: My Impressions of \"The Great Gatsby\"",
+      "body": "Greetings, fellow readers! Today, I find myself enchanted by the glitz and glamour of the Roaring Twenties as I reflect on F. Scott Fitzgerald's masterwork, \"The Great Gatsby.\" Join me on a journey through the opulent world of Jay Gatsby, where love, wealth, and longing collide in a whirlwind of tragedy and triumph.\n\n\"The Great Gatsby\" is a tale of lost illusions and the pursuit of the American Dream, set against the backdrop of the glittering Long Island sound. From the moment we meet the enigmatic Jay Gatsby, standing alone on the shores of West Egg, we are drawn into a world of excess and extravagance.\n\nOne aspect of the novel that struck me deeply is Fitzgerald's exquisite prose, which sparkles like the champagne flutes at Gatsby's lavish parties. With every turn of the page, I was swept away by the lush descriptions of Gatsby's mansion, the shimmering lights of New York City, and the haunting green light at the end of Daisy Buchanan's dock.\n\nBut beneath the surface of wealth and glamour lies a story of unfulfilled desires and shattered dreams. Through the eyes of narrator Nick Carraway, we witness the tragic downfall of Gatsby, a man who rose from humble origins to become a symbol of the American Dream, only to lose everything in pursuit of a love that was never meant to be.\n\nYet amidst the heartache and disillusionment, there is a haunting beauty to be found in Fitzgerald's portrayal of love and longing. From Gatsby's undying devotion to Daisy to the poignant moments of quiet reflection, \"The Great Gatsby\" reminds us that even in a world of glittering parties and extravagant gestures, the truest riches are found in the depths of the human heart.\n\nAs I reluctantly bid farewell to Gatsby and his tragic tale, I am left with a sense of awe and admiration for Fitzgerald's timeless masterpiece. \"The Great Gatsby\" is more than just a novel; it's a window into a bygone era, where every word is a brushstroke on the canvas of history.\n\nSo to all fellow readers who have yet to experience the splendor of \"The Great Gatsby,\" I urge you to step into the dazzling world of Jay Gatsby and Daisy Buchanan. Whether you're a hopeless romantic or a keen observer of human nature, \"The Great Gatsby\" promises to enchant and captivate, leaving an indelible mark on your soul.\n\nUntil next time, may your hearts be filled with the echoes of jazz and your dreams reach ever higher.\n\nCheers to the magic of literature!",
       "likes": 0,
       "bookId": 1,
       "userId": 1,
       "id": 1
     },
     {
-      "title": "This is the second post",
-      "body": "Second post for testing purposes",
+      "title": "In the Footsteps of Atticus Finch: My Reflections on \"To Kill a Mockingbird\"",
+      "body": "Greetings, fellow bookworms! Today, I'm transported to the sleepy town of Maycomb, Alabama, as I ponder the timeless themes and profound insights of Harper Lee's \"To Kill a Mockingbird.\" Join me on a journey through the pages of this Pulitzer Prize-winning novel, where courage, compassion, and the pursuit of justice reign supreme.\n\nSet against the backdrop of the Deep South in the 1930s, \"To Kill a Mockingbird\" follows the journey of young Scout Finch as she navigates the complexities of racial injustice and moral integrity in her community. Through Scout's innocent yet perceptive eyes, we witness the harsh realities of prejudice and discrimination, as well as the enduring power of empathy and compassion.\n\nOne aspect of the novel that resonated deeply with me is Harper Lee's remarkable ability to capture the essence of small-town life in the American South. From the sweltering heat of summer to the hushed whispers of gossip on the courthouse steps, every detail feels authentic and immersive, inviting readers to step into the world of Maycomb and experience its joys and sorrows firsthand.\n\nBut beyond its vivid setting and compelling characters, \"To Kill a Mockingbird\" is a poignant meditation on the nature of justice and the importance of standing up for what is right, even in the face of overwhelming odds. Through the character of Atticus Finch, we are reminded of the profound impact that a single individual can have on their community, simply by staying true to their principles and upholding the values of fairness and equality.\n\nAs I reluctantly bid farewell to Scout, Atticus, and the unforgettable cast of characters who inhabit the pages of \"To Kill a Mockingbird,\" I am left with a renewed sense of hope and optimism for the future. Despite the injustices and hardships that they face, the residents of Maycomb demonstrate resilience and courage in the face of adversity, inspiring readers to believe in the power of compassion and empathy to create positive change in the world.\n\nSo to all fellow readers who have yet to embark on this literary journey, I urge you to pick up a copy of \"To Kill a Mockingbird\" and discover for yourself the timeless wisdom and profound truths that lie within its pages. Whether you're a seasoned reader or a newcomer to the world of literature, \"To Kill a Mockingbird\" promises to touch your heart and leave a lasting impression on your soul.\n\nUntil next time, may the spirit of Atticus Finch guide you on your journey, and may you always remember the importance of empathy, compassion, and the pursuit of justice in our world.\n\nHappy reading, my friends!",
       "likes": 1,
       "bookId": 2,
       "userId": 1,
@@ -135,6 +135,13 @@
       "fullName": "Anthony Hopkins",
       "isAdmin": false,
       "id": 2
+    }
+  ],
+  "liked": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 5
     }
   ]
 }

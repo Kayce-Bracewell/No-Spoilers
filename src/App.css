@@ -1,16 +1,31 @@
 body {
-  color: #E7C8DD;
+  color: #DEFFFC;
 }
 
 h2 {
-  border: 2px solid #E7C8DD;
   background-color: #1B1B1B;
-  width: 35%;
-  border-radius: 25px;
+  width: 50%;
+  border-radius: 15px;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: auto;
   margin-left: auto;
   text-shadow: 1px 1px 2px grey;
+  padding: 5px 0;
+}
+
+input {
+  background-color: #1B1B1B;
+  color: white;
+}
+
+textarea {
+  background-color: #1B1B1B;
+  color: white;
+}
+
+select {
+  background-color: black;
+  color: white;
 }

@@ -4,6 +4,7 @@ import { NewPost } from "../posts/NewPost"
 import { NavBar } from "../nav/NavBar"
 import { AllPostsDisplay } from "../posts/AllPostsDisplay"
 import { PostDetails } from "../posts/PostDetails"
+import { MyPosts } from "../posts/MyPosts"
 
 
 export const CustomerViews = ({ currentUser }) => {
@@ -21,6 +22,8 @@ export const CustomerViews = ({ currentUser }) => {
                 <Route path="post">
                     <Route path=":postId" element={<PostDetails currentUser={currentUser}/>}/>
                 </Route>
+                <Route path="myposts" element={<MyPosts currentUser={currentUser}/>}/>
+                <Route path="likes" element={<AllPostsDisplay />}/>
             </Route>
         </Routes>
     )

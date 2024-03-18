@@ -136,5 +136,12 @@
       "isAdmin": false,
       "id": 2
     }
+  ],
+  "liked": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 5
+    }
   ]
 }

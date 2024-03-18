@@ -5,7 +5,7 @@ import "./Login.css"
 import { getUserByEmail } from "../services/UserService"
 
 export const Login = () => {
-  const [email, set] = useState("hpassfield7@netvibes.com")
+  const [email, set] = useState("kayceb98@gmail.com")
   const navigate = useNavigate()
 
   const handleLogin = (e) => {
@@ -33,8 +33,8 @@ export const Login = () => {
     <main className="container-login">
       <section>
         <form className="form-login" onSubmit={handleLogin}>
-          <h1>Honey Rae Repairs</h1>
-          <h2>Please sign in</h2>
+          <h1>No Spoilers</h1>
+          <h2 id="sign-in">Enter Login</h2>
           <fieldset>
             <div className="form-group">
               <input
@@ -53,12 +53,12 @@ export const Login = () => {
               <button className="login-btn btn-info" type="submit">
                 Sign in
               </button>
+              <section>
+                <Link to="/register" id="member-yet">Not a member yet?</Link>
+              </section>
             </div>
           </fieldset>
         </form>
-      </section>
-      <section>
-        <Link to="/register">Not a member yet?</Link>
       </section>
     </main>
   )

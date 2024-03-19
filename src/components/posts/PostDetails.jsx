@@ -1,15 +1,14 @@
 import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
-import { GetNonExpandedPost, GetPostById } from "../services/GetPostById"
+import { GetPostById } from "../services/GetPostById"
 import "./PostDetails.css"
 import { handleDelete } from "../services/DeletePost"
-import { LikePost } from "../services/LikePost"
 import { NewPost } from "./NewPost"
+import { LikePost } from "../services/LikeService"
 
 
 export const PostDetails = ({currentUser}) => {
     const [post, setPost] = useState([])
-    const [PurePost, setPurePost] = useState([])
     const [StateCount, setStateCount] = useState(0)
 
     const { postId } = useParams()
@@ -17,10 +16,6 @@ export const PostDetails = ({currentUser}) => {
 
     useEffect(() => {
         GetPostById(postId).then((post) => {setPost(post)})
-    }, [])
-
-    useEffect(() => {
-        GetNonExpandedPost(postId).then((post) => {setPurePost(post)})
     }, [])
 
     return (
@@ -42,7 +37,7 @@ export const PostDetails = ({currentUser}) => {
                     </> : 
                     <>
                         <button onClick={() => {
-                            LikePost(PurePost)
+                            LikePost(currentUser.id, post.id, post.book.id)
                             navigate("/")
                         }} className="btn" id="edit-btn">Like!</button>
                     </>}

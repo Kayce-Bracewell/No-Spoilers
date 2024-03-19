@@ -8,6 +8,7 @@ export const AllPostsDisplay = ({MyPosts}) => {
     const [posts, setPosts] = useState([])
 
     useEffect(() => {
+
         if (typeof MyPosts != "undefined") {
             setPosts(MyPosts)
         } else {

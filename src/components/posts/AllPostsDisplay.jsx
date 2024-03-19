@@ -24,7 +24,7 @@ export const AllPostsDisplay = ({MyPosts}) => {
                 return (
                     <Link to={`/post/${post.id}`} key={post.id} className="post-link">
                         <div className="post">
-                            <h4 className="post-title">"{post.title}"</h4>
+                            <h4 className="post-title">{post.title}</h4>
                             <div className="post-img"><img src={post.book.bookImg}/></div>
                             {typeof MyPosts != "undefined" ?
                             "" :

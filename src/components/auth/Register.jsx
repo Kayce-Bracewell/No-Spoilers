@@ -7,7 +7,7 @@ export const Register = (props) => {
   const [customer, setCustomer] = useState({
     email: "",
     fullName: "",
-    isStaff: false,
+    isAdmin: false,
   })
   let navigate = useNavigate()
 
@@ -18,7 +18,7 @@ export const Register = (props) => {
           "honey_user",
           JSON.stringify({
             id: createdUser.id,
-            staff: createdUser.isStaff,
+            staff: createdUser.isAdmin,
           })
         )
 
@@ -49,7 +49,7 @@ export const Register = (props) => {
   return (
     <main style={{ textAlign: "center" }}>
       <form className="form-login" onSubmit={handleRegister}>
-        <h1>Honey Rae Repairs</h1>
+        <h1>No Spoilers</h1>
         <h2>Please Register</h2>
         <fieldset>
           <div className="form-group">

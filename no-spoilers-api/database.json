@@ -79,6 +79,14 @@
       "date": "2008-09-14",
       "bookImg": "https://m.media-amazon.com/images/I/71un2hI4mcL._AC_UF1000,1000_QL80_.jpg",
       "authorName": "Suzanne Collins"
+    },
+    {
+      "title": "Foundation",
+      "genre": "Science Fiction",
+      "date": "1951-03-03",
+      "bookImg": "https://www.michaelwhelan.com/wp-content/uploads/hari.jpg",
+      "authorName": "Isaac Asimov",
+      "id": 11
     }
   ],
   "posts": [
@@ -140,6 +148,14 @@
       "bookId": 3,
       "userId": 3,
       "id": 8
+    },
+    {
+      "title": "Unraveling the Foundation: Isaac Asimov's Magnum Opus",
+      "body": "In Isaac Asimov's Foundation series, we are invited to contemplate the intricacies of time's tapestry, where the past shapes the future in an enigmatic dance of causality. Through the rise and fall of empires, Asimov reminds us of the impermanence that shrouds power and prestige, yet offers solace in the resilience of the human spirit. Within the mosaic of characters, we confront the eternal struggle between unity and discord, enlightenment and ignorance—a reflection of our own collective journey. Foundation endures as a testament to the indomitable spirit of human imagination, offering timeless wisdom to illuminate our path through the cosmos",
+      "likes": 0,
+      "bookId": 11,
+      "userId": 3,
+      "id": 9
     }
   ],
   "users": [

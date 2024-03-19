@@ -4,6 +4,7 @@ import { NewPost } from "../posts/NewPost"
 import { NavBar } from "../nav/NavBar"
 import { AllPostsDisplay } from "../posts/AllPostsDisplay"
 import { MyPosts } from "../posts/MyPosts"
+import { NewBook } from "../books/NewBook"
 
 
 export const EmployeeViews = ({ currentUser }) => {
@@ -23,6 +24,7 @@ export const EmployeeViews = ({ currentUser }) => {
                 </Route>
                 <Route path="myposts" element={<MyPosts currentUser={currentUser}/>}/>
                 <Route path="likes" element={<AllPostsDisplay />}/>
+                <Route path="book" element={<NewBook />}/>
             </Route>
         </Routes>
     )

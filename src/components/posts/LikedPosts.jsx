@@ -14,18 +14,17 @@ export const LikedPosts = ({ currentUser }) => {
     useEffect(() => {
         const filteredLikes = AllLikes.filter((posts) => currentUser.id === posts.userId)
         setLikedPosts(filteredLikes)
-        console.log(LikedPosts)
     }, [AllLikes])
 
     return (
         <>
-            <h2>Coming Soon..</h2>
+            <h2>Favorites</h2>
             <div className="posts-container">
                 {LikedPosts.map((postObj) => {
                     return (
                         <Link to={`/post/${postObj.post.id}`} key={postObj.id} className="post-link">
                         <div className="post">
-                            <h4 className="post-title">"{postObj.post.title}"</h4>
+                            <h4 className="post-title">{postObj.post.title}</h4>
                             <div className="post-img"><img src={postObj.book.bookImg}/></div>
                         </div>
                         </Link>

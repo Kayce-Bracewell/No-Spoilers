@@ -6,6 +6,7 @@ import { AllPostsDisplay } from "../posts/AllPostsDisplay"
 import { PostDetails } from "../posts/PostDetails"
 import { MyPosts } from "../posts/MyPosts"
 import { LikedPosts } from "../posts/LikedPosts"
+import { NewBook } from "../books/NewBook"
 
 
 export const CustomerViews = ({ currentUser }) => {
@@ -25,6 +26,7 @@ export const CustomerViews = ({ currentUser }) => {
                 </Route>
                 <Route path="myposts" element={<MyPosts currentUser={currentUser}/>}/>
                 <Route path="likes" element={<LikedPosts currentUser={currentUser}/>}/>
+                <Route path="book" element={<NewBook />}/>
             </Route>
         </Routes>
     )

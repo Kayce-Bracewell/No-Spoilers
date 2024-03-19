@@ -1,0 +1,14 @@
+.form-field {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#book-form {
+    justify-content: center;
+    display: flex;
+}
+
+#publish-label {
+    margin-left: 15px;
+}

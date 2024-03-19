@@ -16,7 +16,7 @@ export const MyPosts = ({ currentUser }) => {
 
     return (
         <>
-            <h2>Plz Display</h2>
+            <h2>My Posts</h2>
             <AllPostsDisplay MyPosts={MyPosts}/>    
         </>
     )

@@ -87,29 +87,23 @@
       "bookImg": "https://www.michaelwhelan.com/wp-content/uploads/hari.jpg",
       "authorName": "Isaac Asimov",
       "id": 11
+    },
+    {
+      "title": "The Things They Carried",
+      "genre": "War Fiction",
+      "date": "1990-03-08",
+      "bookImg": "https://m.media-amazon.com/images/I/71boO2LKbCL._AC_UF1000,1000_QL80_.jpg",
+      "authorName": "Tim O' Brien",
+      "id": 12
     }
   ],
   "posts": [
     {
-      "title": "Unveiling the Jazz Age Splendor: My Impressions of \"The Great Gatsby\"",
-      "body": "Greetings, fellow readers! Today, I find myself enchanted by the glitz and glamour of the Roaring Twenties as I reflect on F. Scott Fitzgerald's masterwork, \"The Great Gatsby.\" Join me on a journey through the opulent world of Jay Gatsby, where love, wealth, and longing collide in a whirlwind of tragedy and triumph.\n\n\"The Great Gatsby\" is a tale of lost illusions and the pursuit of the American Dream, set against the backdrop of the glittering Long Island sound. From the moment we meet the enigmatic Jay Gatsby, standing alone on the shores of West Egg, we are drawn into a world of excess and extravagance.\n\nOne aspect of the novel that struck me deeply is Fitzgerald's exquisite prose, which sparkles like the champagne flutes at Gatsby's lavish parties. With every turn of the page, I was swept away by the lush descriptions of Gatsby's mansion, the shimmering lights of New York City, and the haunting green light at the end of Daisy Buchanan's dock.\n\nBut beneath the surface of wealth and glamour lies a story of unfulfilled desires and shattered dreams. Through the eyes of narrator Nick Carraway, we witness the tragic downfall of Gatsby, a man who rose from humble origins to become a symbol of the American Dream, only to lose everything in pursuit of a love that was never meant to be.\n\nYet amidst the heartache and disillusionment, there is a haunting beauty to be found in Fitzgerald's portrayal of love and longing. From Gatsby's undying devotion to Daisy to the poignant moments of quiet reflection, \"The Great Gatsby\" reminds us that even in a world of glittering parties and extravagant gestures, the truest riches are found in the depths of the human heart.\n\nAs I reluctantly bid farewell to Gatsby and his tragic tale, I am left with a sense of awe and admiration for Fitzgerald's timeless masterpiece. \"The Great Gatsby\" is more than just a novel; it's a window into a bygone era, where every word is a brushstroke on the canvas of history.\n\nSo to all fellow readers who have yet to experience the splendor of \"The Great Gatsby,\" I urge you to step into the dazzling world of Jay Gatsby and Daisy Buchanan. Whether you're a hopeless romantic or a keen observer of human nature, \"The Great Gatsby\" promises to enchant and captivate, leaving an indelible mark on your soul.\n\nUntil next time, may your hearts be filled with the echoes of jazz and your dreams reach ever higher.\n\nCheers to the magic of literature!",
-      "bookId": 1,
-      "userId": 1,
-      "id": 1
-    },
-    {
       "title": "In the Footsteps of Atticus Finch: My Reflections on \"To Kill a Mockingbird\"",
-      "body": "Greetings, fellow bookworms! Today, I'm transported to the sleepy town of Maycomb, Alabama, as I ponder the timeless themes and profound insights of Harper Lee's \"To Kill a Mockingbird.\" Join me on a journey through the pages of this Pulitzer Prize-winning novel, where courage, compassion, and the pursuit of justice reign supreme.\n\nSet against the backdrop of the Deep South in the 1930s, \"To Kill a Mockingbird\" follows the journey of young Scout Finch as she navigates the complexities of racial injustice and moral integrity in her community. Through Scout's innocent yet perceptive eyes, we witness the harsh realities of prejudice and discrimination, as well as the enduring power of empathy and compassion.\n\nOne aspect of the novel that resonated deeply with me is Harper Lee's remarkable ability to capture the essence of small-town life in the American South. From the sweltering heat of summer to the hushed whispers of gossip on the courthouse steps, every detail feels authentic and immersive, inviting readers to step into the world of Maycomb and experience its joys and sorrows firsthand.\n\nBut beyond its vivid setting and compelling characters, \"To Kill a Mockingbird\" is a poignant meditation on the nature of justice and the importance of standing up for what is right, even in the face of overwhelming odds. Through the character of Atticus Finch, we are reminded of the profound impact that a single individual can have on their community, simply by staying true to their principles and upholding the values of fairness and equality.\n\nAs I reluctantly bid farewell to Scout, Atticus, and the unforgettable cast of characters who inhabit the pages of \"To Kill a Mockingbird,\" I am left with a renewed sense of hope and optimism for the future. Despite the injustices and hardships that they face, the residents of Maycomb demonstrate resilience and courage in the face of adversity, inspiring readers to believe in the power of compassion and empathy to create positive change in the world.\n\nSo to all fellow readers who have yet to embark on this literary journey, I urge you to pick up a copy of \"To Kill a Mockingbird\" and discover for yourself the timeless wisdom and profound truths that lie within its pages. Whether you're a seasoned reader or a newcomer to the world of literature, \"To Kill a Mockingbird\" promises to touch your heart and leave a lasting impression on your soul.\n\nUntil next time, may the spirit of Atticus Finch guide you on your journey, and may you always remember the importance of empathy, compassion, and the pursuit of justice in our world.\n\nHappy reading, my friends!",
+      "body": "Greetings, fellow bookworms! Today, I'm transported to the sleepy town of Maycomb, Alabama, as I ponder the timeless themes and profound insights of Harper Lee's \"To Kill a Mockingbird.\" Join me on a journey through the pages of this Pulitzer Prize-winning novel, where courage, compassion, and the pursuit of justice reign supreme.\n\nSet against the backdrop of the Deep South in the 1930s, \"To Kill a Mockingbird\" follows the journey of young Scout Finch as she navigates the complexities of racial injustice and moral integrity in her community. Through Scout's innocent yet perceptive eyes, we witness the harsh realities of prejudice and discrimination, as well as the enduring power of empathy and compassion.\n\nOne aspect of the novel that resonated deeply with me is Harper Lee's remarkable ability to capture the essence of small-town life in the American South. From the sweltering heat of summer to the hushed whispers of gossip on the courthouse steps, every detail feels authentic and immersive, inviting readers to step into the world of Maycomb and experience its joys and sorrows firsthand.\n\nBut beyond its vivid setting and compelling characters, \"To Kill a Mockingbird\" is a poignant meditation on the nature of justice and the importance of standing up for what is right, even in the face of overwhelming odds. Through the character of Atticus Finch, we are reminded of the profound impact that a single individual can have on their community, simply by staying true to their principles and upholding the values of fairness and equality.\n\nAs I reluctantly bid farewell to Scout, Atticus, and the unforgettable cast of characters who inhabit the pages of \"To Kill a Mockingbird,\" I am left with a renewed sense of hope and optimism for the future. Despite the injustices and hardships that they face, the residents of Maycomb demonstrate resilience and courage in the face of adversity, inspiring readers to believe in the power of compassion and empathy to create positive change in the world.\n\nSo to all fellow readers who have yet to embark on this literary journey, I urge you to pick up a copy of \"To Kill a Mockingbird\" and discover for yourself the timeless wisdom and profound truths that lie within its pages. Whether you're a seasoned reader or a newcomer to the world of literature, \"To Kill a Mockingbird\" promises to touch your heart and leave a lasting impression on your soul.",
       "bookId": 2,
       "userId": 1,
       "id": 2
-    },
-    {
-      "title": "Exploring the Depths of Middle-earth: My Adventure with 'The Lord of the Rings'",
-      "body": "In a world where magic, friendship, and courage intertwine, J.R.R. Tolkien's masterpiece, \"The Lord of the Rings,\" takes readers on an unforgettable journey through the realms of Middle-earth. From the peaceful Shire to the fiery depths of Mount Doom, this epic saga captivates with its rich tapestry of characters and lore.  As I delved into the pages of this timeless classic, I found myself immersed in a world teeming with beauty and danger, where every turn of the page revealed new wonders and challenges. From the humble beginnings of Frodo Baggins' quest to destroy the One Ring to the epic battles that decide the fate of Middle-earth, Tolkien's masterful storytelling kept me spellbound until the very end.  But beyond its captivating plot and breathtaking landscapes, \"The Lord of the Rings\" resonates with timeless themes of friendship, sacrifice, and the triumph of good over evil. Through the trials and tribulations faced by Frodo, Sam, Aragorn, and the Fellowship, Tolkien reminds us of the power of hope and the importance of standing against darkness, no matter the odds.  In the end, \"The Lord of the Rings\" is more than just a story; it's a journey of the heart and soul, one that continues to inspire readers of all ages to embark on their own adventures and never lose sight of the light that shines in even the darkest of times.",
-      "bookId": 8,
-      "userId": 1,
-      "id": 3
     },
     {
       "title": "Survival and Sacrifice: Reflecting on 'The Hunger Games'",
@@ -156,6 +150,14 @@
       "bookId": 11,
       "userId": 3,
       "id": 9
+    },
+    {
+      "title": "The Burdens We Bear",
+      "body": "In the midst of battle, soldiers carry more than just their gear. They carry memories, fears, and the heavy burden of survival. O'Brien paints a vivid picture of the physical and emotional toll of war, showing us the weight that soldiers must bear.\n\nThe memories of war linger long after the fighting ends. O'Brien shows us how these memories haunt the soldiers, shaping their thoughts and actions long after they return home. It's a reminder of the lasting impact of war on the human spirit.\n\nThrough storytelling, O'Brien helps the soldiers make sense of their experiences. He shows us the power of sharing our truths, even when they are painful. It's a reminder that sometimes, the heaviest burdens can be lifted through the simple act of telling our stories.\n\nAs we journey through the pages of \"The Things They Carried,\" we learn valuable lessons about resilience and courage. O'Brien's characters show us that even in the darkest of times, there is strength to be found in carrying on.\n\nIn closing, let us honor the brave men and women who have borne the weight of war's legacy. \"The Things They Carried\" is a tribute to their sacrifice and a reminder of the enduring power of the human spirit.",
+      "likes": 0,
+      "bookId": 12,
+      "userId": 1,
+      "id": 10
     }
   ],
   "users": [
@@ -176,6 +178,13 @@
       "fullName": "Charles Taylor",
       "isStaff": false,
       "id": 3
+    },
+    {
+      "email": "myName@gmail.com",
+      "fullName": "my name",
+      "isAdmin": false,
+      "isStaff": true,
+      "id": 4
     }
   ],
   "likes": [
@@ -214,6 +223,24 @@
       "postId": 5,
       "bookId": 4,
       "id": 8
+    },
+    {
+      "userId": 1,
+      "postId": 9,
+      "bookId": 11,
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "postId": 7,
+      "bookId": 9,
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "postId": 10,
+      "bookId": 12,
+      "id": 12
     }
   ]
 }

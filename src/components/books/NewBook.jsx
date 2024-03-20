@@ -39,7 +39,7 @@ export const NewBook = () => {
                 <input type="text" required onChange={(event) => {
                     setBookAuthor(event.target.value)
                 }}/><br />
-                <button type="button" onClick={(e) => {
+                <button type="button" id="book-submit" className="btn" onClick={(e) => {
                 e.preventDefault()
                 CreateBook(BookTitle, BookGenre, BookDate, BookImg, BookAuthor)
                 navigate("/newpost")

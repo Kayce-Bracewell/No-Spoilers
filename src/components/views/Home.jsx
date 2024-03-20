@@ -4,6 +4,6 @@ export const Home = () => {
 
 
     return (
-        <h2>Welcome to the Home Page!</h2>
+        <h2>Welcome to No Spoilers</h2>
     )
 }

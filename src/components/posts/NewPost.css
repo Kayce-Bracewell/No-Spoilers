@@ -17,3 +17,9 @@ legend {
     padding-bottom: 5px;
     text-align: center;
 }
+
+#post-btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 2px 4px 8px darkred;
+}

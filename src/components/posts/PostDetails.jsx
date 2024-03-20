@@ -21,6 +21,8 @@ export const PostDetails = ({currentUser}) => {
     return (
         <div className="posts-container">
             <div className="post" id="post-details">
+            {StateCount > 0 ? <NewPost post={post}/> :
+            <>
                 <h4 className="post-title">{post.title}</h4>
                 <div className="post-img"><img src={post.book?.bookImg}/></div>
                 <div className="post-title">{post.body}</div>
@@ -38,11 +40,11 @@ export const PostDetails = ({currentUser}) => {
                     <>
                         <button onClick={() => {
                             LikePost(currentUser.id, post.id, post.book.id)
-                            navigate("/")
+                            navigate("/likes")
                         }} className="btn" id="edit-btn">Like!</button>
                     </>}
                 </div>
-                {StateCount > 0 ? <NewPost post={post}/> : <></>}
+            </>}
             </div>
         </div>
     )

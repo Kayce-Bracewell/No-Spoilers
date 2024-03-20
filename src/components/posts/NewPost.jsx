@@ -52,14 +52,13 @@ export const NewPost = ({ currentUser, post }) => {
                 <textarea type="text" id="body" name="body" value={postBody} onChange={(event) => {
                     setPostBody(event.target.value)
                 }}/><br />
-                {typeof post == "undefined" ? <button onClick={() => {
+                {typeof post == "undefined" ? <button id="post-btn" className="btn" onClick={() => {
                     CreatePost(postTitle, postBody, postBook, currentUser.id)
                     Navigate("/")
-                }}type="button">Create Post</button> : <button type="button" onClick={() => {
+                }}type="button">Create Post</button> : <button type="button" id="post-btn" onClick={() => {
                     EditPost(post, postTitle, postBody, postBook)
                     Navigate(`/`)
                 }}>Save Edit</button>}
-                
             </fieldset>
         </form>
     )

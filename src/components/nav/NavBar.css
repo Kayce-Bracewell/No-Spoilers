@@ -13,7 +13,7 @@
     list-style-type: none;
     text-align: center;
     color: var(--offWhite);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .navbar-link {

@@ -207,12 +207,6 @@
       "id": 4
     },
     {
-      "userId": 1,
-      "postId": 6,
-      "bookId": 7,
-      "id": 6
-    },
-    {
       "userId": 2,
       "postId": 7,
       "bookId": 9,
@@ -225,12 +219,6 @@
       "id": 8
     },
     {
-      "userId": 1,
-      "postId": 9,
-      "bookId": 11,
-      "id": 9
-    },
-    {
       "userId": 4,
       "postId": 7,
       "bookId": 9,
@@ -241,6 +229,18 @@
       "postId": 10,
       "bookId": 12,
       "id": 12
+    },
+    {
+      "userId": 1,
+      "postId": 8,
+      "bookId": 3,
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "postId": 9,
+      "bookId": 11,
+      "id": 14
     }
   ]
 }

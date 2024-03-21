@@ -4,12 +4,15 @@ import { GetPostById } from "../services/GetPostById"
 import "./PostDetails.css"
 import { handleDelete } from "../services/DeletePost"
 import { NewPost } from "./NewPost"
-import { LikePost } from "../services/LikeService"
+import { DeleteLikeById, GetPureLikes, LikePost } from "../services/LikeService"
 
 
 export const PostDetails = ({currentUser}) => {
     const [post, setPost] = useState([])
+    const [Likes, setLikes] = useState([])
     const [StateCount, setStateCount] = useState(0)
+    const [HasBeenLiked, setHasBeenLiked] = useState(false)
+    const [FoundLike, setFoundLike] = useState([])
 
     const { postId } = useParams()
     const navigate = useNavigate()
@@ -17,6 +20,18 @@ export const PostDetails = ({currentUser}) => {
     useEffect(() => {
         GetPostById(postId).then((post) => {setPost(post)})
     }, [])
+
+    useEffect(() => {
+        GetPureLikes().then((likes) => {setLikes(likes)})
+    }, [])
+
+    useEffect(() => {
+        const foundLike = Likes.find((like) => currentUser.id == like.userId && post.id == like.postId)
+        setFoundLike(foundLike)
+        if (foundLike) {
+            setHasBeenLiked(true)
+        }
+    }, [Likes])
 
     return (
         <div className="posts-container">
@@ -36,13 +51,21 @@ export const PostDetails = ({currentUser}) => {
                         <button onClick={() => {
                             setStateCount(1)
                         }} id="edit-btn" className="btn">Edit</button>
-                    </> : 
+                    </> : <></>}
+                    {post.userId != currentUser.id && HasBeenLiked == false ? 
                     <>
                         <button onClick={() => {
                             LikePost(currentUser.id, post.id, post.book.id)
                             navigate("/likes")
                         }} className="btn" id="edit-btn">Like!</button>
-                    </>}
+                    </> : <></>}
+                    {post.userId != currentUser.id && HasBeenLiked ?
+                    <>
+                        <button type="button" id="post-btn" className="btn" onClick={() => {
+                            DeleteLikeById(FoundLike.id)
+                            navigate("/likes")
+                        }}>Unlike</button>
+                    </> : <></>}
                 </div>
             </>}
             </div>

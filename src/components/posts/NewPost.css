@@ -19,7 +19,5 @@ legend {
 }
 
 #post-btn:hover {
-    background-color: black;
-    color: white;
     box-shadow: 2px 4px 8px darkred;
 }

@@ -38,9 +38,18 @@ export const PostDetails = ({currentUser}) => {
             <div className="post" id="post-details">
             {StateCount > 0 ? <NewPost post={post}/> :
             <>
-                <h4 className="post-title">{post.title}</h4>
-                <div className="post-img"><img src={post.book?.bookImg}/></div>
-                <div className="post-title">{post.body}</div>
+                <h4 id="post-title">{post.title}</h4>
+                <div className="book-container">
+                    <div className="post-img"><img src={post.book?.bookImg}/></div>
+                    <div className="book-details">
+                        <h5 className="underline">Book Details</h5>
+                        <p><span className="italic-span">Title: </span>{post.book?.title}</p>
+                        <p><span className="italic-span">Genre: </span>{post.book?.genre}</p>
+                        <p><span className="italic-span">Author: </span>{post.book?.authorName}</p>
+                        <p><span className="italic-span">Publish Date: </span>{post.book?.date}</p>
+                    </div>
+                </div>
+                <div id="post-body">{post.body}</div>
                 <div className="options-container">
                     {post.userId == currentUser.id ?
                     <>
@@ -50,7 +59,7 @@ export const PostDetails = ({currentUser}) => {
                         }} id="del-btn" className="btn">Delete</button>
                         <button onClick={() => {
                             setStateCount(1)
-                        }} id="edit-btn" className="btn">Edit</button>
+                        }} id="post-btn" className="btn">Edit</button>
                     </> : <></>}
                     {post.userId != currentUser.id && HasBeenLiked == false ? 
                     <>

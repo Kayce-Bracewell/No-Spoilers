@@ -18,26 +18,42 @@
     flex-wrap: wrap;
 }
 
-.post-title {
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
+#post-title {
+    width: 100%;
     text-align: center;
     border-bottom: 2px solid black;
-    margin: 4px;
+    margin: 15px auto;
+    padding-bottom: 10px;
+}
+
+#post-body {
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 2%;
+    padding-bottom: 10px;
 }
 
 img {
     margin: 10px 0;
     width: 150px;
     height: 200px;
-    box-shadow: 1px 2px 5px rgb(56, 7, 7);
+    box-shadow: 2px 4px 8px rgb(56, 7, 7);
 }
 
 .post-img {
     align-items: center;
+    width: 50%;
+}
+
+.post-author {
+    margin: 15px 0;
 }
 
 .post:hover {
-    background-color: #DEFFFC;
+    background-color: rgb(102, 28, 28);
+    color: white;
+}
+
+#post-img {
+    width: auto;
 }

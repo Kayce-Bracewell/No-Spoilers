@@ -14,9 +14,11 @@
     text-align: center;
     color: var(--offWhite);
     text-decoration: none;
+    font-weight: 500;
 }
 
 .navbar-link {
     color: black;
     text-decoration: none;
+    align-self: center;
 }

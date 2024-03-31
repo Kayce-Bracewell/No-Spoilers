@@ -1,26 +1,35 @@
 #post-details {
     margin: 10px 0;
-    width: 80%;
-    padding: 5px;
-}
-
-#post-details:hover {
     background-color: #86626E;
+    width: 80vw;
+    height: auto;
+    color: black;
+    border: 1px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px 0;
+    box-shadow: 1px 4px 8px rgb(56, 7, 7);
 }
 
 #del-btn {
-    background-color: rgb(148, 23, 23);
-
+    background-color: darkred;
 }
 
+#del-btn:hover {
+    box-shadow: 1px 4px 8px black;
+}
+
+
 #edit-btn {
-    background-color: palegreen;
+    background-color: rgb(104, 187, 104);
 }
 
 .options-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 15px;
+    margin: 15px 0;
 }
 
 .btn {
@@ -33,4 +42,23 @@
     font-family: inherit;
     cursor: pointer;
     transition: border-color 0.25s;
+}
+
+.book-container {
+    display: flex;
+}
+
+.book-details {
+    width: 50%;
+    margin-right: 10px;
+    box-shadow: 2px 4px 6px rgb(56, 7, 7);
+}
+
+.italic-span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
 }

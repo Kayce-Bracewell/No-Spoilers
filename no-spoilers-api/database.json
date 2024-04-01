@@ -95,6 +95,22 @@
       "bookImg": "https://m.media-amazon.com/images/I/71boO2LKbCL._AC_UF1000,1000_QL80_.jpg",
       "authorName": "Tim O' Brien",
       "id": 12
+    },
+    {
+      "title": "Leviathan Wakes",
+      "genre": "Sci-Fi",
+      "date": "2011-06-15",
+      "bookImg": "https://cdn.kobo.com/book-images/6566405d-aebd-40eb-8c09-eff97588acae/1200/1200/False/leviathan-wakes.jpg",
+      "authorName": "James S.A. Corey",
+      "id": 13
+    },
+    {
+      "title": "Eragon",
+      "genre": "Fantasy",
+      "date": "2002-08-26",
+      "bookImg": "https://upload.wikimedia.org/wikipedia/en/c/ce/Eragon_book_cover.png",
+      "authorName": "Christopher Paolini",
+      "id": 14
     }
   ],
   "posts": [
@@ -159,6 +175,14 @@
       "bookId": 2,
       "userId": 1,
       "id": 11
+    },
+    {
+      "title": "Leviathan Wakes",
+      "body": "Just the beginning to an incredible series",
+      "likes": 0,
+      "bookId": 13,
+      "userId": 1,
+      "id": 12
     }
   ],
   "users": [

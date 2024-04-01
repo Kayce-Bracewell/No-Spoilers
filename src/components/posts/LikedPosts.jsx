@@ -24,7 +24,7 @@ export const LikedPosts = ({ currentUser }) => {
                     return (
                         <Link to={`/post/${postObj.post.id}`} key={postObj.id} className="post-link">
                         <div className="post">
-                            <h4 id="post-title">{postObj.post.title}</h4>
+                            <h4 id="post-title" className="futurafont">{postObj.post.title}</h4>
                             <div id="post-img"><img src={postObj.book.bookImg}/></div>
                         </div>
                         </Link>

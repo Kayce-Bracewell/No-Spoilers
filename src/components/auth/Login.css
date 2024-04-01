@@ -84,5 +84,6 @@ fieldset {
 }
 
 #sign-in {
-  border: none;
+  width: 50%;
+  margin: none;
 }

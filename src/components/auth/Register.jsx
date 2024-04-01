@@ -49,8 +49,8 @@ export const Register = (props) => {
   return (
     <main style={{ textAlign: "center" }}>
       <form className="form-login" onSubmit={handleRegister}>
-        <h1>No Spoilers</h1>
-        <h2>Please Register</h2>
+        <h1 className="garafont">No Spoilers</h1>
+        <h2 id="sign-in">Please Register</h2>
         <fieldset>
           <div className="form-group">
             <input
@@ -94,7 +94,7 @@ export const Register = (props) => {
         </fieldset>
         <fieldset>
           <div className="form-group">
-            <button className="login-btn btn-info" type="submit">
+            <button className="login-btn btn-info btn" type="submit">
               Register
             </button>
           </div>

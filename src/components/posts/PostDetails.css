@@ -23,7 +23,7 @@
 
 
 #edit-btn {
-    background-color: rgb(104, 187, 104);
+    background-color: white;
 }
 
 .options-container {
@@ -44,13 +44,17 @@
     transition: border-color 0.25s;
 }
 
+.btn:hover {
+    box-shadow: 1px 2px 5px rgb(56, 7, 7);
+}
+
 .book-container {
     display: flex;
 }
 
 .book-details {
     width: 50%;
-    margin-right: 10px;
+    margin-right: 5%;
     box-shadow: 2px 4px 6px rgb(56, 7, 7);
 }
 

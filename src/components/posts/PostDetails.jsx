@@ -38,7 +38,7 @@ export const PostDetails = ({currentUser}) => {
             <div className="post" id="post-details">
             {StateCount > 0 ? <NewPost post={post}/> :
             <>
-                <h4 id="post-title">{post.title}</h4>
+                <h4 id="post-title" className="futurafont">{post.title}</h4>
                 <div className="book-container">
                     <div className="post-img"><img src={post.book?.bookImg}/></div>
                     <div className="book-details">
@@ -55,7 +55,7 @@ export const PostDetails = ({currentUser}) => {
                     <>
                         <button onClick={() => {
                             handleDelete(post.id)
-                            navigate("/")
+                            navigate("/myposts")
                         }} id="del-btn" className="btn">Delete</button>
                         <button onClick={() => {
                             setStateCount(1)
@@ -66,7 +66,7 @@ export const PostDetails = ({currentUser}) => {
                         <button onClick={() => {
                             LikePost(currentUser.id, post.id, post.book.id)
                             navigate("/likes")
-                        }} className="btn" id="edit-btn">Like!</button>
+                        }} className="btn" id="post-btn">Like!</button>
                     </> : <></>}
                     {post.userId != currentUser.id && HasBeenLiked ?
                     <>

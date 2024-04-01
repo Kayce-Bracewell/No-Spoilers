@@ -54,10 +54,10 @@ export const NewPost = ({ currentUser, post }) => {
                 }}/><br />
                 {typeof post == "undefined" ? <button id="post-btn" className="btn" onClick={() => {
                     CreatePost(postTitle, postBody, postBook, currentUser.id)
-                    Navigate("/")
+                    Navigate("/myposts")
                 }}type="button">Create Post</button> : <button type="button" className="btn" id="post-btn" onClick={() => {
                     EditPost(post, postTitle, postBody, postBook)
-                    Navigate(`/`)
+                    Navigate(`/myposts`)
                 }}>Save Edit</button>}
             </fieldset>
         </form>

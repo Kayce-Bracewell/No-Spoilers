@@ -18,7 +18,7 @@ export const LikedPosts = ({ currentUser }) => {
 
     return (
         <>
-            <h2>Favorites</h2>
+            <h2 id="welcome">Favorites</h2>
             <div className="posts-container">
                 {LikedPosts.map((postObj) => {
                     return (

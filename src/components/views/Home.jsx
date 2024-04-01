@@ -4,6 +4,6 @@ export const Home = () => {
 
 
     return (
-        <h2>Welcome to No Spoilers</h2>
+        <h2 className="garafont" id="welcome">Welcome to No Spoilers</h2>
     )
 }

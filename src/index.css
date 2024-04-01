@@ -19,3 +19,17 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
+.garafont {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.futurafont {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#welcome {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 80%;
+  padding: 20px 0;
+}
